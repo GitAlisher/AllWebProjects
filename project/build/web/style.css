@@ -1,0 +1,166 @@
+body, html {
+    
+    width: 100%;
+    height: 100%;
+    display:table;
+}
+body{
+	background-image: url(images/wood-Bg.jpg);
+	background-attachment: fixed;
+}
+#InvalidInfo {
+	position: relative;
+	color: red;
+	top:400px;
+	left: 400px;
+}
+
+#logo {
+	/*background-image: url(logo-background.jpg);*/
+	color:lightgrey;
+	font-size: 30px;
+	font-style: oblique;
+	padding-left: 100px;
+}
+#main {
+	/*background-image: url(frame.jpg);
+	/*background-repeat: no-repeat;*/
+	
+	background-attachment: fixed;
+	background-position: center;
+	margin-left: 20%;
+	margin-top: 5%;
+	margin-bottom: 10%;
+	margin-right: 20%;
+	padding-left: 100px;
+	height: 100%;
+/*	padding-right: 0px;*/
+	padding-bottom: 30px;
+	/*border-left:2px solid grey;
+	border-right:2px solid grey;*/
+	box-shadow: 10px 10px 5px #000000;
+	border-radius: 15px;
+	border: solid;
+	border-width: 1px;
+	color: lightgrey;
+}
+#Book {
+	float: left;
+	width:256px;
+	margin: 30px;
+	border: solid;
+	border-width: 0.5px;
+	border-color: grey;
+	border-radius: 5px;
+	box-shadow: 5px 5px 3px #000000;
+}
+#Book h2{
+	font-size: 18px;
+	
+}
+#Book img{
+	
+	background-repeat:no-repeat;
+	border-radius: 5px;
+}
+#MainText {
+	margin-top: 100px;
+	border-top: solid 3px;
+	border-bottom: solid 3px;
+	color: #3577e0;
+        position:relative;
+}
+.button2:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+#login {
+	margin-left: 400px;
+	margin-right: 400px;
+	margin-top: 15%;
+        padding-bottom: 30px;
+	text-align: center;
+	color: #ffee99;
+	border: solid 1px;
+	border-radius: 15px;
+}
+a{
+	margin-left:85%;
+	color: grey;
+	border-radius: 2px;
+	font-style: oblique;
+	font-size: 18px;
+}
+
+p{
+	padding-left: 200px;
+	padding-right: 100px;
+	padding-top: 200px;
+	padding-bottom: 30px;
+}
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td, th {
+    border: 1px solid;
+    text-align: left;
+    padding: 8px;
+}
+
+
+.main-menu {
+    margin-left:300px;
+	margin-right: 400px;
+    padding: 0;
+    list-style: none;
+    border: 1px solid #e5e5e5;
+	border-radius: 15px;
+	background-color: #ffd480;
+}
+
+.main-menu > li {
+    position: relative;
+    display: inline-block;
+    margin-right: -4px;
+}
+
+.main-menu a {
+    display: block;
+    margin-left: -1px;
+    padding: 8px 10px;
+    /*color: #0088cc;*/
+    border-right: 1px solid #e5e5e5;
+}
+
+.main-menu a:hover {
+    background: #f4bc42;
+	border-radius: 15px;
+}
+
+.main-menu .sub-menu {
+    position: absolute;
+    left: 1px;
+    display: none;
+    width: 130px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    background-color: #fff480;
+}
+
+.main-menu .sub-menu a {
+    margin-bottom: -1px;
+    border: 1px solid #e5e5e5;
+	border-radius:15px;
+}
+.main-menu > li:hover .sub-menu {
+    display: block;
+	border-radius:15px;
+	background-color: #ffd480;
+}
+.sub-menu {
+	font-size: 15px;
+	background: none;
+}
